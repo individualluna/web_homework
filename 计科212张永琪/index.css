@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  color:white
+}
+body {
+  background-image: url("image/img-1.jpg");
+}
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #288cff;
+  opacity: 0.6;
+}
+.content {
+  position: absolute;
+  width:70%;
+  right: 0;
+}
+.content h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.user {
+  float: left;
+  margin-left:100px;
+  width:45%;
+  height:300px;
+}
+.userinfo {
+  display: flex;
+  border-bottom:3px rgb(175, 190, 216) solid;
+  height:60px;
+}
+.userinfo .before {
+  flex: 2;
+  text-align: center;
+}
+.userinfo .after {
+  flex:3;
+}
+.pic {
+  float: right;
+  margin-right:200px;
+}
+.pic img {
+  width:180px;
+  display:none;
+}
+.show {
+  position: absolute;
+  right:230px;
+  top:200px;
+  width: 150px;
+  height:40px;
+  border-radius: 20px;
+  border: 2px rgb(175, 190, 216) solid;
+  background-color: rgba(175, 190, 216, 0.3);
+  font-size: 18px;
+}
