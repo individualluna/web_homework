@@ -1,0 +1,21 @@
+.ban {
+  height: 20%;
+  background-color: aqua;
+}
+.con {
+  height: 65%;
+}
+.con .f {
+    float:left;
+    width:30%;
+    background-color: blue;
+}
+.con .s {
+    float:left;
+    width:70%;
+    background-color: rgb(113, 211, 211);
+}
+.last {
+  height: 15%;
+  background-color: aqua;
+}

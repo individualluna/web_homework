@@ -1,0 +1,31 @@
+.content {
+    margin:0 auto;
+}
+.ban1 {
+    height:15%;
+    background-color: aqua;
+}
+.ban2 {
+    height:7%;
+    background-color: blue;
+}
+.ban3 {
+    display: flex;
+    height:72%;
+}
+.f {
+    flex:3;
+    background-color: rgb(77, 198, 148);
+}
+.s {
+    flex:4;
+    background-color: rgb(62, 189, 96);
+}
+.t {
+    flex:3;
+    background-color: rgb(92, 192, 69);
+}
+.ban4 {
+    height:6%;
+    background-color: skyblue;
+}

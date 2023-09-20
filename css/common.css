@@ -1,0 +1,31 @@
+html,
+body {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    width: 500px;
+}
+
+.banner a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.banner a:hover {
+    color: rgb(133, 155, 68);
+}
+.content {
+    width:95%;
+    height:100%;
+    margin:0 auto;
+    background-color: aquamarine;
+  }
